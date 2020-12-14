@@ -1,0 +1,29 @@
+# Code, Build, Test, Repeat: Optimize with Argo, Telepresence and Skaffold
+
+Format:solo presentation 35 minute talk
+Speaker:Peter
+Relevant CNCF technologies:  Argo, Telepresence, Skaffold
+Topic:101
+
+## Session description (1000 char):
+
+As a relatively new user to Kubernetes — Peter earned the CKAD certificate earlier this year — he spent a lot of his time testing code and config he had very little confidence in, consistently making minor changes and deploying to see what works and what doesn’t. 
+
+For a tiny test app, this is not really a problem, but as the system gets more complex this loop from code-build-test starts to take longer and longer.  As such, if you test 100 small changes, this means losing 100x more time which could be spent trying new solutions.
+
+Learning by making mistakes is unavoidable, so learning from mistakes quickly and iterating is an essential skill. Join this session to learn about tools you’ll want to use to beef up your development arsenal. 
+
+- Argo - evolve from build and push to CD
+- Telepresence - jump into the cluster for a fast local dev/debug loop
+- Skaffold - sync local to remote code changes
+
+## Benefits to the ecosystem (1000 char):
+
+As new developers enter the Cloud Native ecosystem, they will look for guidance to help them adapt to new workflows. For those who are just now learning about CI/CD and Telemetry tools, it will be easier to hear from someone who has recently faced these challenges. I earned my CKAD certificate just earlier this year, and with this knowledge fresh in hand I would love to share it with new developers.
+
+My aim with this session is to expose developers who are new to Cloud Native to alternative ways to write and deploy code. Exploring new tools can give developers better insights into how Cloud Native technologies connect together. 
+
+Hopefully, with better tooling and easier development cycles, such exposure will enable developers to code more, and then contribute more to Cloud Native solutions. 
+
+## Status
+pending...
