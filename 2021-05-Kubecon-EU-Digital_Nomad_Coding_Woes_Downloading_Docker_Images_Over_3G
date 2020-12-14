@@ -1,0 +1,29 @@
+# Digital Nomad Coding Woes. Downloading Docker Images Over 3G.
+
+Format:solo presentation 35 minute talk
+Speaker:Peter
+Relevant CNCF technologies:  VScode, AWS, Kubernetes, Docker 
+Topic:101
+
+## Session description (1000 char):
+
+The year of 2020 was known for a lot of things. One of the most impactful is the number of remote workers that were created. A non-trivial number of these newly remote workers decided to take the route of the Digital Nomad, where Work-From-Home became Work-From-Anywhere.
+
+This work-from-anywhere trend is one that Peter became intimately familiar with two years ago in 2018, a year when Peter spent eight months traveling through Asia working on 4G, 3G, and sometimes even 2G connections. Trying to download Docker images from an island in Thailand can test anyone’s patience. 
+
+This talk is an amalgamation of the tactics Peter has used to write code and run builds with minimal internet connections.
+
+You will walk away from this talk with some strategies to write code locally with VScode and Terminal, while seamlessly offloading the processing and bandwidth restraints to AWS and GCP via an SSH connection.
+
+## Benefits to the ecosystem (1000 char):
+
+I’ve experienced the struggle of trying to work in countries with an underdeveloped network backbone. Signals can be spotty, and speeds are sub-par, but with the right preparation anything is manageable. 
+
+Most developers take for granted the 1Gbps links that enable them to have speedy dev environments on their local machines-pulling updates and images in seconds that may take hours for other developers around the world.
+
+I’ve learned some simple but effective techniques that are usable in just about any environment, with just about any hardware. You don’t need the latest MacBook or a fiber connection to build and test Cloud Native applications. 
+
+I’d like to share how to use your current text editors, such as VScode and IntelliJ, to harness the unlimited resources that the Cloud Providers can provide. With a few virtual machines, SSH connections and port-forwarding rules you can write and push code from nearly anywhere in the world.
+
+## Status
+Pending...
